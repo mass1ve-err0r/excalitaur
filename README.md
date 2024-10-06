@@ -9,10 +9,11 @@ This project basically bundles [Excalidraw](https://github.com/excalidraw/excali
 to provide a more native feel to Excalidraw.
 
 
-### Note
-It's saving options have been thinned down to plain saving to disk & loading from disk, I personally don't need more.
+### Technicalities
+It's a basic tauri-react app with excalidraw included as dependency, therefore no modification are done to the core.
 
-The only feature missing is the image generation from the canvas. I'll implement it back when I have more time.
+Updating becomes as easy as using the new dependency and rebuilding the project, that's it.
+You can also just download the newest binaries from this repository.
 
 
 ### Feature Overview
